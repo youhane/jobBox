@@ -1,0 +1,77 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.backgroundSignUp {
+  background-image: url("/Assets/background/background-login.png");
+}
+
+.owl-nav {
+  margin: 0em 3em 0em 3em;
+}
+
+.profile {
+  margin-right: 0em;
+  margin-left: 0em;
+  margin-bottom: 0em;
+  margin-top: -1.8em;
+}
+
+.greenGrab {
+  background-color: #289245;
+}
+
+.orenShopee {
+  background-color: #ef422e;
+}
+
+.redSuperindo {
+  background-color: #d93731;
+}
+
+.redKfc {
+  background-color: #ed2d29;
+}
+
+.active {
+  color: #ea5455;
+}
+
+.card,
+.post,
+.chat {
+  cursor: pointer;
+}
+
+.chat:hover {
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition: 0.2s;
+}
+
+.w-smolLogo {
+  width: 10%;
+}
+
+.w-harvard {
+  width: 20%;
+}
+
+.bg-green-active {
+  background-color: #1ce676;
+}
+
+.green-active {
+  color: #1ce676;
+}
+
+.you {
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+.me {
+  margin-left: 9rem;
+  margin-right: 2.3em;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Companies</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body class="text-gray-800">
+    <nav class="flex w-1/4 h-12 mx-5 my-4 bg-white">
+      <img
+        src="/Assets/profile picture/XzAxODUzMzAuanBn.jpg"
+        alt="profilePic"
+        class="rounded-full w-12 cursor-pointer"
+      />
+      <div
+        class="flex border-2 border-gray-600 rounded-xl mx-6 pr-2 h-4/5 my-auto"
+      >
+        <i class="fa fa-search my-auto mx-3"></i>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search"
+          class="pl-3 focus:border-none"
+        />
+      </div>
+      <img src="/Assets/icon/chat-2.svg" class="w-9 cursor-pointer" />
+    </nav>
+    <div class="company flex flex-col rounded-xl shadow-lg mx-5 my-4">
+      <div class="top">
+        <img
+          src="/Assets/background/grab-background.jpg"
+          class="rounded-t-xl"
+        />
+      </div>
+      <img
+        src="/Assets/logo/grabApp.png"
+        class="border-2 border-white rounded-full absolute w-1/4 my-8 ml-72"
+      />
+      <div class="bot mx-7 my-5">
+        <div>
+          <h1 class="font-bold text-3xl pb-1">Grab</h1>
+          <p class="font-semibold">Drive Southeast Asia Forward with us</p>
+          <p class="font-extralight text-sm">
+            Information Technology & Services
+          </p>
+        </div>
+        <div class="flex justify-between my-3">
+          <p class="tracking-wide">32,648 employees</p>
+          <button
+            class="
+              bg-red-500
+              text-white
+              rounded-lg
+              hover:bg-red-600
+              p-2
+              px-6
+              font-semibold
+            "
+          >
+            Follow
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="company flex flex-col rounded-xl shadow-lg mx-5 my-4">
+      <div class="top">
+        <img
+          src="/Assets/background/shopee-background.jpg"
+          class="rounded-t-xl"
+        />
+      </div>
+      <img
+        src="/Assets/logo/shopeeApp.png"
+        class="border-2 border-white rounded-full absolute w-1/4 my-8 ml-72"
+      />
+      <div class="bot mx-7 my-5">
+        <div>
+          <h1 class="font-bold text-3xl pb-1">Shopee</h1>
+          <p class="font-semibold">
+            The leading e-commerce in Southeast Asia dan Taiwan
+          </p>
+          <p class="font-extralight text-sm">Internet</p>
+        </div>
+        <div class="flex justify-between my-3">
+          <p class="tracking-wide">21,772 employees</p>
+          <button
+            class="
+              bg-red-500
+              text-white
+              rounded-lg
+              hover:bg-red-600
+              p-2
+              px-6
+              font-semibold
+            "
+          >
+            Follow
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="company flex flex-col rounded-xl shadow-lg mx-5 my-4">
+      <div class="top">
+        <img
+          src="/Assets/background/amazon-background.jpg"
+          class="rounded-t-xl"
+        />
+      </div>
+      <img
+        src="/Assets/logo/awsSquare.png"
+        class="border-2 border-white rounded-full absolute w-1/4 my-32 ml-72"
+      />
+      <div class="bot mx-7 my-5">
+        <div>
+          <h1 class="font-bold text-3xl pb-1">Amazon (AWS)</h1>
+          <p class="font-semibold">Make a new world with us</p>
+          <p class="font-extralight text-sm">Not the forest, but kind of</p>
+        </div>
+        <div class="flex justify-between my-3">
+          <p class="tracking-wide">302,648 employees</p>
+          <button
+            class="
+              bg-red-500
+              text-white
+              rounded-lg
+              hover:bg-red-600
+              p-2
+              px-6
+              font-semibold
+            "
+          >
+            Follow
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="flex z-20 fixed bg-white py-3 hidden -bottom-2">
+      <div class="home flex flex-col">
+        <img src="/Assets/icon/home.png" class="w-1/3 mx-auto" />
+        <p class="text-gray-700 text-center">Home</p>
+      </div>
+      <div class="people flex flex-col">
+        <img
+          src="/Assets/icon/people.png"
+          class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
+        />
+        <p class="text-gray-700 text-center">People</p>
+      </div>
+      <div class="near flex flex-col">
+        <img
+          src="/Assets/icon/location.png"
+          class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
+        />
+        <p class="text-gray-700 text-center">Near You</p>
+      </div>
+      <div class="company flex flex-col">
+        <img
+          src="/Assets/icon/company-red.png"
+          class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
+        />
+        <p class="text-gray-700 text-center active">Company</p>
+      </div>
+    </nav>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="/scripts/utils.js"></script>
+  <script src="/scripts/carousel.js"></script>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <nav class="flex w-1/4 h-12 mx-5 my-4 bg-white">
+      <img
+        src="/Assets/profile picture/XzAxODUzMzAuanBn.jpg"
+        alt="profilePic"
+        class="rounded-full w-12 cursor-pointer"
+        onclick="location.href = '/pages/profileSelf.html';"
+      />
+      <div
+        class="flex border-2 border-gray-600 rounded-xl mx-6 pr-2 h-4/5 my-auto"
+      >
+        <i class="fa fa-search my-auto mx-3"></i>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search"
+          class="pl-3 focus:border-none"
+        />
+      </div>
+      <img
+        src="/Assets/icon/chat-2.svg"
+        class="w-9 cursor-pointer"
+        onclick="location.href = '/pages/messages.html';"
+      />
+    </nav>
+    <div class="banner w-5/6 mx-auto">
+      <div class="m-3 border border-2 border-black rounded-xl">
+        <img src="/Assets/banner/job-advertisement-2.jpg" alt="job" />
+      </div>
+      <div class="m-3 border border-2 border-black rounded-xl">
+        <img src="/Assets/banner/job-advertisement-3.jpg" alt="job" />
+      </div>
+      <div class="m-3 border border-2 border-black rounded-xl">
+        <img src="/Assets/banner/job-advertisement.jpg" alt="job" />
+      </div>
+    </div>
+    <div id="recomm">
+      <h1 class="text-2xl font-bold pl-5 pt-2">Recommended</h1>
+      <div class="recomm">
+        <div class="card border-2 rounded-xl shadow-lg mx-6 my-3">
+          <div class="bg-black rounded-t-xl">
+            <img src="/Assets/logo/RW.jpg" class="w-3/4 h-35 mx-auto" />
+          </div>
+          <div class="p-2 pl-3">
+            <h1 class="font-bold">Customer Service</h1>
+            <h2 class="font-semibold pb-4">Internship</h2>
+            <p class="text-sm text-gray-500">Babarakan, Yogyakarta</p>
+          </div>
+        </div>
+        <div
+          class="card border-2 rounded-xl shadow-lg mx-6 my-3"
+          onclick="location.href = '/pages/jobDetail.html';"
+        >
+          <div class="greenGrab rounded-t-xl">
+            <img src="/Assets/logo/grabApp.png" class="w-3/4 h-35 mx-auto" />
+          </div>
+          <div class="p-2 pl-3">
+            <h1 class="font-bold">Accountant</h1>
+            <h2 class="font-semibold pb-4">Associate</h2>
+            <p class="text-sm text-gray-500">Abdul, Jakarta</p>
+          </div>
+        </div>
+        <div class="card border-2 rounded-xl shadow-lg mx-6 my-3">
+          <div class="orenShopee rounded-t-xl">
+            <img src="/Assets/logo/shopeeApp.png" class="w-3/4 h-35 mx-auto" />
+          </div>
+          <div class="p-2 pl-3">
+            <h1 class="font-bold">Customer Service</h1>
+            <h2 class="font-semibold pb-4">Associate</h2>
+            <p class="text-sm text-gray-500">Charlie, Bekasi</p>
+          </div>
+        </div>
+        <div class="card border-2 rounded-xl shadow-lg mx-6 my-3">
+          <div class="redSuperindo rounded-t-xl">
+            <img src="/Assets/logo/superindo.png" class="w-3/4 h-35 mx-auto" />
+          </div>
+          <div class="p-2 pl-3">
+            <h1 class="font-bold">Inbound Logisticss</h1>
+            <h2 class="font-semibold pb-4">Associate</h2>
+            <p class="text-sm text-gray-500">Dennys, Surabaya</p>
+          </div>
+        </div>
+        <div class="card border-2 rounded-xl shadow-lg mx-6 my-3">
+          <div class="redKfc rounded-t-xl">
+            <img src="/Assets/logo/kfc.png" class="w-3/4 h-35 mx-auto" />
+          </div>
+          <div class="p-2 pl-3">
+            <h1 class="font-bold">Branch Manager</h1>
+            <h2 class="font-semibold pb-4">Full-time</h2>
+            <p class="text-sm text-gray-500">Edi, Tangerang</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="flex z-20 fixed bg-white py-3 -bottom-2">
+      <div class="home flex flex-col">
+        <img src="/Assets/icon/home-red.png" class="w-1/3 mx-auto" />
+        <p class="text-gray-700 text-center active">Home</p>
+      </div>
+      <div class="people flex flex-col">
+        <img
+          src="/Assets/icon/people.png"
+          class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
+        />
+        <p class="text-gray-700 text-center">People</p>
+      </div>
+      <div class="near flex flex-col">
+        <img
+          src="/Assets/icon/location.png"
+          class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
+        />
+        <p class="text-gray-700 text-center">Near You</p>
+      </div>
+      <div class="company flex flex-col">
+        <img
+          src="/Assets/icon/company.png"
+          class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
+        />
+        <p class="text-gray-700 text-center">Company</p>
+      </div>
+    </nav>
+    <div id="posts">
+      <h1 class="font-bold text-2xl pl-2 pt-2">Recently Posted</h1>
+      <div class="post border border-2 mx-3 shadow-xl my-8 rounded-2xl">
+        <div class="top">
+          <img src="/Assets/post/grab-post.jpg" />
+          <div
+            class="
+              profile
+              flex
+              z-10
+              absolute
+              bg-white
+              ml-20
+              right-3
+              pr-14
+              pl-3
+              py-1
+              rounded-tl-lg
+            "
+          >
+            <img src="/Assets/logo/grabApp.png" class="w-7 rounded-full" />
+            <h1 class="my-auto mx-2 font-bold">Grab</h1>
+          </div>
+        </div>
+        <div class="pt-2 pb-4 px-3">
+          <p class="text-gray-600">Posted 10h ago</p>
+          <p class="p-3">
+            Wishing you all a happy ramadhan! Wanna know more about what you can
+            do to improve yourselves? you can read one of articles that one of
+            our partners already wrote right
+            <span class="text-blue-600 underline cursor-pointer">here!</span>
+          </p>
+          <p class="p-3">So how about it...</p>
+        </div>
+      </div>
+      <div class="post border border-2 mx-3 shadow-xl my-8 rounded-2xl">
+        <div class="top">
+          <img src="/Assets/post/aws-post.jpg" />
+          <div
+            class="
+              profile
+              flex
+              z-10
+              absolute
+              bg-white
+              ml-20
+              right-3
+              pr-14
+              pl-3
+              py-1
+              rounded-tl-lg
+            "
+          >
+            <img src="/Assets/logo/aws.png" class="w-7 rounded-full" />
+            <h1 class="my-auto mx-2 font-bold">AWS</h1>
+          </div>
+        </div>
+        <div class="pt-2 pb-4 px-3">
+          <p class="text-gray-600">Posted 30m ago</p>
+          <p class="p-3">
+            Ready to migrate? Join us on our first ever AWS Migration Day Online
+            at
+            <span class="text-blue-600 underline cursor-pointer"
+              >bit.ly/MigrateOnline</span
+            >
+            now! We're holding up a webinar about migration with the AWS team
+            held by a cool and fun host!
+          </p>
+          <p class="p-3">Join now and don't miss out!</p>
+        </div>
+      </div>
+      <div class="post border border-2 mx-3 shadow-xl my-8 rounded-2xl">
+        <div class="top">
+          <img src="/Assets/post/shopee-post.jpg" />
+          <div
+            class="
+              profile
+              flex
+              z-10
+              absolute
+              bg-white
+              ml-20
+              right-3
+              pr-14
+              pl-3
+              py-1
+              rounded-tl-lg
+            "
+          >
+            <img src="/Assets/logo/shopeeApp.png" class="w-7 rounded-full" />
+            <h1 class="my-auto mx-2 font-bold">Shopee</h1>
+          </div>
+        </div>
+        <div class="pt-2 pb-4 px-3">
+          <p class="text-gray-600">Posted 1d ago</p>
+          <p class="p-3">
+            Don't know where to start your Frontend Engineer journey? Come and
+            watch our engineering webinar about how to ace the interview first!
+            With our incredible panelists you're sure to get incredible insights
+            on acing the interview. Join
+            <span class="text-blue-600 underline cursor-pointer">now!</span>
+          </p>
+          <p class="p-3">In todays tech industry, front end development...</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="/scripts/utils.js"></script>
+  <script src="/scripts/carousel.js"></script>
+</html>
