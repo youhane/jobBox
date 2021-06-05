@@ -26,9 +26,11 @@
         src="/Assets/profile picture/XzAxODUzMzAuanBn.jpg"
         alt="profilePic"
         class="rounded-full w-12 cursor-pointer"
+        onclick="location.href = '/pages/profileSelf.html';"
       />
       <div
         class="flex border-2 border-gray-600 rounded-xl mx-6 pr-2 h-4/5 my-auto"
+        onkeypress="location.href = '/pages/search.html';"
       >
         <i class="fa fa-search my-auto mx-3"></i>
         <input
@@ -39,12 +41,16 @@
           class="pl-3 focus:border-none"
         />
       </div>
-      <img src="/Assets/icon/chat-2.svg" class="w-9 cursor-pointer" />
+      <img
+        src="/Assets/icon/chat-2.svg"
+        class="w-9 cursor-pointer"
+        onclick="location.href = '/pages/messages.html';"
+      />
     </nav>
     <div class="parts border-2 shadow-xl flex p-4 m-6 rounded-xl">
       <div class="kiri flex flex-col space-y-3">
         <img
-          src="/Assets/profile picture/XzA3NjQyMDIuanBn.jpg"
+          src="/Assets/profile picture/XzA0MzM4NjYuanBn.jpg"
           class="rounded-full mx-auto`"
         />
         <button
@@ -56,13 +62,14 @@
             py-2
             rounded-2xl
             tracking-wider
+            hover:bg-red-600
           "
         >
           Edit
         </button>
       </div>
       <div class="kanan flex flex-col text-center">
-        <h1 class="text-3xl font-bold tracking-wide">Budi Lamar</h1>
+        <h1 class="text-3xl font-bold tracking-wide">Feli Ramal</h1>
         <h3 class="font-semibold text-lg">Graphic Designer</h3>
         <div class="comp flex mx-14 shadow-lg p-2 rounded-lg my-3">
           <img src="/Assets/logo/logo-dodoro.png" class="mx-3 w-smolLogo" />
@@ -512,26 +519,38 @@
         <img src="/Assets/logo/Grab.png" class="w-24 h-12 my-auto" />
       </div>
     </div>
-    <nav class="flex z-20 fixed bg-white py-3 -bottom-2">
+    <nav
+      class="flex z-20 fixed bg-white py-3 -bottom-2"
+      onclick="location.href = '/pages/home.html';"
+    >
       <div class="home flex flex-col">
         <img src="/Assets/icon/home.png" class="w-1/3 mx-auto" />
         <p class="text-gray-700 text-center">Home</p>
       </div>
-      <div class="people flex flex-col">
+      <div
+        class="people flex flex-col"
+        onclick="location.href = '/pages/people.html';"
+      >
         <img
           src="/Assets/icon/people.png"
           class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
         />
         <p class="text-gray-700 text-center">People</p>
       </div>
-      <div class="near flex flex-col">
+      <div
+        class="near flex flex-col"
+        onclick="location.href = '/pages/near.html';"
+      >
         <img
           src="/Assets/icon/location.png"
           class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
         />
         <p class="text-gray-700 text-center">Near You</p>
       </div>
-      <div class="company flex flex-col">
+      <div
+        class="company flex flex-col"
+        onclick="location.href = '/pages/company.html';"
+      >
         <img
           src="/Assets/icon/company.png"
           class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"

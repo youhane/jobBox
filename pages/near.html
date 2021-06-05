@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CompanyDetail</title>
+    <title>JobDetail</title>
     <link
       rel="stylesheet"
       type="text/css"
@@ -20,7 +20,7 @@
     />
     <link rel="stylesheet" href="/styles/styles.css" />
   </head>
-  <body>
+  <body class="text-gray-800">
     <nav class="flex w-1/4 h-12 mx-5 my-4 bg-white">
       <img
         src="/Assets/profile picture/XzAxODUzMzAuanBn.jpg"
@@ -47,42 +47,64 @@
         onclick="location.href = '/pages/messages.html';"
       />
     </nav>
-    <div class="back flex mx-2 mb-2">
-      <i
-        class="fa fa-arrow-left fa-lg my-auto mr-4 cursor-pointer"
-        onclick="location.href = '/pages/home.html';"
-      ></i>
-      <p class="py-3 text-gray-800 font-semibold text-lg">Company</p>
-    </div>
-    <div class="header flex mx-3">
-      <img src="/Assets/logo/grabApp.png" class="w-5/12" />
-      <div class="slot ml-7 text-gray-800">
-        <h1 class="font-bold text-3xl">Grab</h1>
-        <h2 class="font-semibold text-lg">Drive Southeast Asia</h2>
-        <h3 class="font-light text-xs mb-4">
-          Information Technology & Services
-        </h3>
-        <h4 class="pb-3">32,648 employees</h4>
-        <button
+    <div>
+      <div class="maps mx-auto">
+        <img src="/Assets/illustration/mapsSteal.png" alt="" />
+      </div>
+      <div>
+        <p
           class="
-            bg-red-500
-            text-white
-            font-bold
-            py-2
-            pt-1
-            px-16
-            rounded-full
-            shadow-md
-            hover:bg-red-600
+            bg-gray-200
+            text-gray-200
+            rounded-xl
+            w-1/5
+            h-3
+            text-center
+            mx-auto
+            my-4
           "
         >
-          Follow
-        </button>
-      </div>
-    </div>
-    <div class="about m-3 text-gray-800">
-      <h1 class="font-bold text-2xl">Job Offer</h1>
-      <div id="recomm">
+          ----
+        </p>
+        <h1 class="text-2xl mx-4 font-semibold mb-4">New jobs in Bogor</h1>
+        <div class="font-light flex space-x-4 mx-4">
+          <h1
+            class="
+              p-1
+              border-2 border-gray-500
+              rounded-lg
+              hover:bg-gray-800
+              hover:text-white
+              font-semibold
+            "
+          >
+            Accountant
+          </h1>
+          <h1
+            class="
+              p-1
+              border-2 border-gray-500
+              rounded-lg
+              hover:bg-gray-800
+              hover:text-white
+              font-semibold
+            "
+          >
+            Customer Service
+          </h1>
+          <h1
+            class="
+              p-1
+              border-2 border-gray-500
+              rounded-lg
+              hover:bg-gray-800
+              hover:text-white
+              font-semibold
+            "
+          >
+            Other
+          </h1>
+        </div>
         <div class="recomm">
           <div class="card border-2 rounded-xl shadow-lg mx-6 my-3">
             <div class="bg-black rounded-t-xl">
@@ -146,126 +168,12 @@
         </div>
       </div>
     </div>
-    <div class="req m-3 text-gray-800">
-      <h1 class="font-bold text-2xl pb-3">Discover</h1>
-      <div id="posts">
-        <div
-          class="post border border-2 mx-3 shadow-xl my-8 rounded-2xl"
-          onclick="location.href = '/pages/post.html';"
-        >
-          <div class="top">
-            <img src="/Assets/post/grab-post.jpg" />
-            <div
-              class="
-                profile
-                flex
-                z-10
-                absolute
-                bg-white
-                ml-20
-                right-3
-                pr-14
-                pl-3
-                py-1
-                rounded-tl-lg
-              "
-            >
-              <img src="/Assets/logo/grabApp.png" class="w-7 rounded-full" />
-              <h1 class="my-auto mx-2 font-bold">Grab</h1>
-            </div>
-          </div>
-          <div class="pt-2 pb-4 px-3">
-            <p class="text-gray-600">Posted 10h ago</p>
-            <p class="p-3">
-              Wishing you all a happy ramadhan! Wanna know more about what you
-              can do to improve yourselves? you can read one of articles that
-              one of our partners already wrote right
-              <span class="text-blue-600 underline cursor-pointer">here!</span>
-            </p>
-            <p class="p-3">So how about it...</p>
-          </div>
-        </div>
-        <div class="post border border-2 mx-3 shadow-xl my-8 rounded-2xl">
-          <div class="top">
-            <img src="/Assets/post/aws-post.jpg" />
-            <div
-              class="
-                profile
-                flex
-                z-10
-                absolute
-                bg-white
-                ml-20
-                right-3
-                pr-14
-                pl-3
-                py-1
-                rounded-tl-lg
-              "
-            >
-              <img src="/Assets/logo/aws.png" class="w-7 rounded-full" />
-              <h1 class="my-auto mx-2 font-bold">AWS</h1>
-            </div>
-          </div>
-          <div class="pt-2 pb-4 px-3">
-            <p class="text-gray-600">Posted 30m ago</p>
-            <p class="p-3">
-              Ready to migrate? Join us on our first ever AWS Migration Day
-              Online at
-              <span class="text-blue-600 underline cursor-pointer"
-                >bit.ly/MigrateOnline</span
-              >
-              now! We're holding up a webinar about migration with the AWS team
-              held by a cool and fun host!
-            </p>
-            <p class="p-3">Join now and don't miss out!</p>
-          </div>
-        </div>
-        <div class="post border border-2 mx-3 shadow-xl my-8 rounded-2xl">
-          <div class="top">
-            <img src="/Assets/post/shopee-post.jpg" />
-            <div
-              class="
-                profile
-                flex
-                z-10
-                absolute
-                bg-white
-                ml-20
-                right-3
-                pr-14
-                pl-3
-                py-1
-                rounded-tl-lg
-              "
-            >
-              <img src="/Assets/logo/shopeeApp.png" class="w-7 rounded-full" />
-              <h1 class="my-auto mx-2 font-bold">Shopee</h1>
-            </div>
-          </div>
-          <div class="pt-2 pb-4 px-3">
-            <p class="text-gray-600">Posted 1d ago</p>
-            <p class="p-3">
-              Don't know where to start your Frontend Engineer journey? Come and
-              watch our engineering webinar about how to ace the interview
-              first! With our incredible panelists you're sure to get incredible
-              insights on acing the interview. Join
-              <span class="text-blue-600 underline cursor-pointer">now!</span>
-            </p>
-            <p class="p-3">In todays tech industry, front end development...</p>
-          </div>
-        </div>
-      </div>
-    </div>
     <nav class="flex z-20 fixed bg-white py-3 -bottom-2">
       <div
         class="home flex flex-col"
         onclick="location.href = '/pages/home.html';"
       >
-        <img
-          src="/Assets/icon/home.png"
-          class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
-        />
+        <img src="/Assets/icon/home.png" class="w-1/3 mx-auto" />
         <p class="text-gray-700 text-center">Home</p>
       </div>
       <div
@@ -283,10 +191,10 @@
         onclick="location.href = '/pages/near.html';"
       >
         <img
-          src="/Assets/icon/location.png"
+          src="/Assets/icon/location-red.png"
           class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
         />
-        <p class="text-gray-700 text-center">Near You</p>
+        <p class="text-gray-700 text-center active">Near You</p>
       </div>
       <div
         class="company flex flex-col"

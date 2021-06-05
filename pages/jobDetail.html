@@ -26,14 +26,14 @@
         src="/Assets/profile picture/XzAxODUzMzAuanBn.jpg"
         alt="profilePic"
         class="rounded-full w-12 cursor-pointer"
+        onclick="location.href = '/pages/profileSelf.html';"
+        s
       />
       <div
         class="flex border-2 border-gray-600 rounded-xl mx-6 pr-2 h-4/5 my-auto"
+        onkeypress="location.href = '/pages/search.html';"
       >
-        <i
-          class="fa fa-search my-auto mx-3"
-          onclick="location.href = '/pages/home.html';"
-        ></i>
+        <i class="fa fa-search my-auto mx-3"></i>
         <input
           type="text"
           name="search"
@@ -42,7 +42,11 @@
           class="pl-3 focus:border-none"
         />
       </div>
-      <img src="/Assets/icon/chat-2.svg" class="w-9 cursor-pointer" />
+      <img
+        src="/Assets/icon/chat-2.svg"
+        class="w-9 cursor-pointer"
+        onclick="location.href = '/pages/messages.html';"
+      />
     </nav>
     <div class="back flex mx-2">
       <i
@@ -94,26 +98,38 @@
         <li>Strong written and verbal communication skill</li>
       </ul>
     </div>
-    <nav class="flex z-20 fixed bg-white py-3 -bottom-2">
-      <div class="home flex flex-col">
+    <nav class="flex z-20 fixed bg-white py-3 -bottom-2 cursor-pointer">
+      <div
+        class="home flex flex-col"
+        onclick="location.href = '/pages/home.html';"
+      >
         <img src="/Assets/icon/home.png" class="w-1/3 mx-auto" />
         <p class="text-gray-700 text-center">Home</p>
       </div>
-      <div class="people flex flex-col">
+      <div
+        class="people flex flex-col"
+        onclick="location.href = '/pages/people.html';"
+      >
         <img
           src="/Assets/icon/people.png"
           class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
         />
         <p class="text-gray-700 text-center">People</p>
       </div>
-      <div class="near flex flex-col">
+      <div
+        class="near flex flex-col"
+        onclick="location.href = '/pages/near.html';"
+      >
         <img
           src="/Assets/icon/location.png"
           class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
         />
         <p class="text-gray-700 text-center">Near You</p>
       </div>
-      <div class="company flex flex-col">
+      <div
+        class="company flex flex-col"
+        onclick="location.href = '/pages/company.html';"
+      >
         <img
           src="/Assets/icon/company.png"
           class="w-1/3 mx-auto hover:shadow-xl cursor-pointer"
