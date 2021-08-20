@@ -3,7 +3,7 @@
 }
 
 .backgroundSignUp {
-  background-image: url("/Assets/background/background-login.png");
+  background-image: url("../Assets/background/background-login.png");
 }
 
 .owl-nav {
@@ -77,5 +77,5 @@
 }
 
 .maps {
-  background-image: url("/Assets/illustration/mapsSteal.png");
+  background-image: url("../Assets/illustration/mapsSteal.png");
 }
