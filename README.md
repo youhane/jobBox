@@ -1,8 +1,8 @@
 # jobBox
 
-College project
-no backend yet
+College project (Human and Computer Interaction 2nd Semester)
+Actually no Backedn
 
 ## Made with
 
-tailwindcss
+TailwindCSS
